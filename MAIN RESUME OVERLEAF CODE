@@ -1,0 +1,191 @@
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+\usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% 
+\begin{center}
+    \textbf{\Huge \scshape Ashish Vachan Tiru} \\ \vspace{5pt}
+    \small +919871546719 $|$ 
+    \href{ashishtiru64@gmail.com}{\underline{ashishtiru64@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/ashish-tiru-6a05a0195/}{\underline{LinkedIn}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Pondicherry University}{Pondicherry, India}
+      {4th Semester student, M.Sc. Bioinformatics }{2022 -- 2024}
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Kirori Mal College, University of Delhi}{New Delhi, India}
+      {2nd Certificate Course in Nanotechnology }{2022 -- 2022}
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Deshbandhu College, University of Delhi}{New Delhi, India}
+      {B.Sc.(HONS) Botany }{2018 -- 2021}
+  \resumeSubHeadingListEnd
+  %
+%-----------EXPERIENCE-----------
+
+\section{Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Delhi Comic Con}{New Delhi, India}
+      {Media Relation}{December 2022}
+      \resumeItemListStart
+      \resumeItem{Handled media relations with the PR Team} 
+        \resumeItem{Assisted many Journalists throughout the event}
+        \resumeItemListEnd
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Krayonnz}{Bengaluru, India}
+      {College Ambassadar, Content creation, Answer/Notes publication}{2021}
+      \resumeItemListStart
+      \resumeItem{Promoted brand to public} 
+        \resumeItem{Created Video-Content for the brand}
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Freelance- Steam, Valve Corporation}{Bellevue, Washington, United States}
+      {Steam Artwork}{2014--...}
+      \resumeItemListStart
+      \resumeItem{Created and sold many custom steam profile artwork for users}  
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+  %-----------HONORS AND AWARDS-----------
+\section{Workshops}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{Department of Bioinformatics,
+Pondicherry University} $|$ \emph{}}{2023}
+        \resumeItemListStart
+            \resumeItem{International Conference cum Workshop on Plant Molecular
+Biology and Bioinformatics jointly organised by the Department of Bioinformatics, Pondicherry University, Indian
+Science Congress Association (ISCA), Pondicherry Chapter and Society for Plant Research (SPR), India}
+          \resumeItemListEnd
+     \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{Deshbandhu College, University of Delhi} $|$ \emph{}}{2021}
+        \resumeItemListStart
+            \resumeItem{3-Day International Live Webinar series on- "Understanding Flora from Aquatic Ecosystems: Towards Better Conservation and Sustainable Use" jointly organized by Department of Botany, Deshbandhu College, University of Delhi, Delhi, INDIA and Institute of Ocean and Earth Sciences, Universiti Malaya, Kuala Lumpur, MALAYSIA.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+%
+  %-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Techniques}{: Molecular Docking, Cell culture, Biological Databases, Molecular Dynamic Simulation} \\
+     \textbf{Softwares}{: Adobe AE, PyMOL, Microsoft Office, MySql.} \\
+    \textbf{Programming Languages}{: C++, JAVA, HTML, PERL} \\
+         \textbf{Languages}{: English, Hindi} \\
+    }}
+ \end{itemize}
+
+%------------------------------------------
+
+
+
+\end{document}
